@@ -1,0 +1,101 @@
+body {
+    background: #ddd;
+    margin: .5rem;
+    padding: .5rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  nav {
+    border-bottom: 2px solid orange;
+  }
+  
+  ol {
+      padding-left: 0;
+  }
+  
+  .crumb {
+      margin-right: 2em;
+      display: inline;
+  }
+  
+  a {
+      color: orange;
+  }
+  
+  a:visited {
+      color: crimson;
+  }
+  
+  
+  input {
+      display: block;
+  }
+  
+  img {
+    box-shadow: 5px 5px 5px grey;
+    border: black solid;
+      max-width: 300px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: black solid;
+    margin-top: 3vh;
+    padding: 1vw;
+    width: 50vw;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ .colorBtn {
+    box-shadow: 5px 5px 5px grey;
+    border: none;
+    background-color: yellow;
+    color: black;
+    height: 5vh;
+    margin: 1vw;
+    
+ }
+ .placeBtn {
+    box-shadow: 5px 5px 5px grey;
+    border: none;
+    height: 5vh;
+    background-color: yellow;
+    color: black;
+    margin: 1vw;
+ }
+ .ritualBtn {
+    box-shadow: 5px 5px 5px grey;
+    border: none;
+    height: 5vh;
+    background-color: yellow;
+    color: black;
+    margin: 1vw;
+ }
+ .colorBtn:hover {
+    transform: scale(1.1);
+ }
+ .placeBtn:hover {
+    transform: scale(1.1);
+ }
+ .ritualBtn:hover {
+    transform: scale(1.1);
+ }

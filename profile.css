@@ -64,31 +64,26 @@ body {
     justify-content: space-between;
 
 }
+.Btns {
+  background-color: yellow;
+    color: black;
+    height: 5vh;
+    margin: 1vw;
+}
 
  .colorBtn {
     box-shadow: 5px 5px 5px grey;
     border: none;
-    background-color: yellow;
-    color: black;
-    height: 5vh;
-    margin: 1vw;
     
  }
  .placeBtn {
     box-shadow: 5px 5px 5px grey;
     border: none;
-    height: 5vh;
-    background-color: yellow;
-    color: black;
-    margin: 1vw;
+  
  }
  .ritualBtn {
     box-shadow: 5px 5px 5px grey;
     border: none;
-    height: 5vh;
-    background-color: yellow;
-    color: black;
-    margin: 1vw;
  }
  .colorBtn:hover {
     transform: scale(1.1);
